@@ -12,7 +12,7 @@
     <PackageProjectUrl>https://github.com/dingsongjie/Pole.Core</PackageProjectUrl>
     <RepositoryUrl>https://github.com/dingsongjie/Pole.Core</RepositoryUrl>
     <RepositoryType>github</RepositoryType>
-    <Version>0.1</Version>
+    <Version>0.1.1</Version>
   </PropertyGroup>
 
   <ItemGroup>

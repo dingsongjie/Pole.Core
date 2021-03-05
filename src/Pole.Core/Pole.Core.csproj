@@ -1,0 +1,33 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
+    <Authors>Pole.Core</Authors>
+    <Company>Pole.Core</Company>
+    <PackageLicenseFile>LICENSE</PackageLicenseFile>
+    <Description>Pole core</Description>
+    <Copyright>Licensed under the MIT License</Copyright>
+    <PackageProjectUrl>https://github.com/dingsongjie/Pole.Core</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/dingsongjie/Pole.Core</RepositoryUrl>
+    <RepositoryType>github</RepositoryType>
+    <Version>0.1</Version>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="5.0.0" />
+    <PackageReference Include="Microsoft.Extensions.Logging.Abstractions" Version="5.0.0" />
+    <PackageReference Include="Microsoft.Extensions.Options" Version="5.0.0" />
+    <PackageReference Include="NewId" Version="3.0.3" />
+    <PackageReference Include="System.Text.Json" Version="5.0.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="..\..\LICENSE">
+      <Pack>True</Pack>
+      <PackagePath></PackagePath>
+    </None>
+  </ItemGroup>
+
+</Project>
